@@ -1,4 +1,5 @@
 import React from 'react';
+import { useNavigation } from '@react-navigation/core';
 import { 
   Image, 
   StyleSheet, 
@@ -15,6 +16,12 @@ import watering from '../assets/watering.png';
 import fonts from '../styles/fonts';
 
 export function Wellcome() {
+  const navigation = useNavigation();
+
+  function handleStart() {
+    navigation.navigate('UserIdentification');
+  };
+
   return (
     <SafeAreaView style={styles.container}>
       <View style={styles.wrapper}>
@@ -37,7 +44,8 @@ export function Wellcome() {
 
           <TouchableOpacity 
             style={styles.button} 
-            activeOpacity={0.7}  
+            activeOpacity={0.7} 
+            onPress={handleStart} 
           >
               <Feather 
                 name="chevron-right"
