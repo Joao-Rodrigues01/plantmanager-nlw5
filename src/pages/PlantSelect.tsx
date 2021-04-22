@@ -36,7 +36,6 @@ export function PlantSelect() {
 
 	const [page, setPage] = useState(1);
 	const [loadingMore, setLoadingMore] = useState(false);
-	const [loadedAll, setLoadedAll] = useState(false);
 
 	function handleEnviromentSelected(environment: string) {
 		setEnviromentsSelected(environment);
