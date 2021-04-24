@@ -2,8 +2,8 @@
  # <center> <img src="./.github/favicon.png" alt="icone do plantmanager"/>  PlantManager</center>
 
 <div style="display:flex; gap: 2rem; margin-bottom: 2rem;"> 
-<img src="./.github/home.jpeg" alt="imagem da home do plantmanager" />
-<img src="./.github/plants.jpeg" alt="imagem da pagina de plantas" />
+<img src="./.github/home.jpeg" alt="imagem da home do plantmanager"  width="210px" height="380px"/>
+<img src="./.github/plants.jpeg" alt="imagem da pagina de plantas"  width="210px" height="380px" />
 </div>
 
 
